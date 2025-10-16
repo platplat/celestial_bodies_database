@@ -49,7 +49,7 @@ Stores orbital relationships between planets and moons.
 - **semi_major_axis_in_km**: INT, semi-major axis of the orbit in km
 
 This table allows flexible tracking of any orbital hierarchy.
-
+<!--
 ---
 
 ## Restoring the Database
@@ -60,3 +60,4 @@ To restore the database from the SQL dump:
 
 # PostgreSQL
 psql -U username -d celestial_db -f celestial_db_dump.sql
+-->
